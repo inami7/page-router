@@ -1,4 +1,5 @@
 //exact  pathが安全一致判定に
+//
 import { BrowserRouter, Link } from "react-router-dom";
 
 import { Router } from "./router/Router";

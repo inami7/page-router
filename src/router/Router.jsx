@@ -9,6 +9,7 @@ export const Router = () => {
       <Route exact path="/">
         <Home />
       </Route>
+
       <Route
         path="/page1"
         render={({ match: { url } }) => (
@@ -25,6 +26,7 @@ export const Router = () => {
           </Switch>
         )}
       />
+
       <Route
         path="/page2"
         render={({ match: { url } }) => (

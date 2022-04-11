@@ -1,5 +1,5 @@
 import { useHistory } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom"; //state取得
 
 export const Page1DetailA = () => {
   const { state } = useLocation();
